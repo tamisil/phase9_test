@@ -646,7 +646,6 @@ SUB_ROUTINE16:
     sw x15, 0x7D0(x28)
     sw x16, 0x7D0(x29)
   //  nop
-    lw x2, 0x7D0(x29)
     lw x3, 0x7D0(x28)
     lw x4, 0x7D0(x27)
     lw x5, 0x7D0(x26)
@@ -672,7 +671,7 @@ SUB_ROUTINE16:
     lw x18, 4(x26)
     bne x18, x17, FAIL
 
-    // Exercise branches for Phase 11: case 58
+    // Exercise branches for Phase 9: case 58
     addi x10, x10, 1
 
     li x1, 0				// Outer loop counter
