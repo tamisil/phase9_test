@@ -646,6 +646,7 @@ SUB_ROUTINE16:
     sw x15, 0x7D0(x28)
     sw x16, 0x7D0(x29)
   //  nop
+    lw x2, 0x7D0(x29)
     lw x3, 0x7D0(x28)
     lw x4, 0x7D0(x27)
     lw x5, 0x7D0(x26)
